@@ -13,6 +13,7 @@ def random_col(board):
     return randint(0, len(board[0]) - 1)
 ship_row = random_row(board)
 ship_col = random_col(board)
+
 for turn in range(4):
  guess_row = (int(input("Guess Row:")))
  guess_col = (int(input("Guess Col:")))
